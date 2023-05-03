@@ -1,0 +1,129 @@
+*{
+    box-shadow: none !important;
+    text-decoration: none !important;
+    list-style: none !important;
+    outline: none !important;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
+.jito-section{
+    padding: 1em;
+}
+.jito-section .container{
+    padding: 0 !important;
+}
+.jito-section .header-class{
+    text-align: center;
+    background: #facb6e25;
+    padding: 2em;
+}
+.jito-section .header-class .d-flex{
+    align-items: center;
+}
+.jito-section .footer-section{
+    padding: 2em;
+    background: #facb6e25;
+}
+.jito-section .footer-section .text-info{
+    color: #3e4095 !important;
+}
+.jito-section .footer-section .box-content .box{
+    background: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.jito-section .footer-section .content .table>:not(caption)>*>*{
+    padding: 0.3rem;
+}
+.jito-section .footer-section .content b{
+    font-size: 0.8rem !important;
+    font-weight: 500 !important;
+}
+.jito-section .footer-section .content p{
+    font-size: 0.7rem;
+}
+.jito-section .footer-section .footer-sponser{
+    background: white;
+    padding: 1em;
+}
+.jito-section .footer-section .footer-sponser .d-flex{
+    align-items: center;
+}
+.jito-section .form-section .card{
+    padding: 2em;
+    border: none !important;
+    box-shadow: inset 0px 0px 5px 1px #dadada9e !important;
+}
+.jito-section .form-section .card .form-control{
+    border-radius: 0;
+    margin-bottom: 15px;
+    border-color: #ced4da;
+}
+.jito-section .form-section ul li{
+    list-style: square !important;
+    margin-bottom: 10px;
+    font-size: 0.875rem;
+}
+@media only screen and (max-width : 767px){
+    .mt-5{
+        margin-top: 1.5em !important;
+    }
+    .mb-5{
+        margin-bottom: 1.5em !important;
+    }
+    .jito-section .header-class{
+        padding: 0.8rem;
+    }
+    .header-class .left-image img,
+    .header-class .right-image img{
+        width: 50px !important;
+    }
+    .header-class .title h4{
+        font-size: 0.6rem;
+    }
+    .header-class .middle-image img{
+        width: 100px;
+    }
+    .page-title .btn{
+        font-size: 0.7rem;
+    }
+    .steps-image .left-image img,
+    .steps-image .mid-image img,
+    .steps-image .right-image img{
+        width: 50px !important;
+    }
+    .jito-section .footer-section{
+        padding: 0.5em;
+    }
+    .jito-section .footer-section .text-info{
+        font-size: 0.5rem;
+    }
+    .jito-section .footer-section .title h4{
+        font-size: 0.875rem;
+    }
+    .jito-section .footer-section .box-content .box{
+        padding: 0.5rem;
+    }
+    .jito-section .footer-section .box-content .box h6{
+        font-size: 0.875rem;
+    }
+    .jito-section .footer-section .box-content .box p{
+        font-size: 0.7rem;
+    }
+    .jito-section .footer-section .content .text-danger{
+        font-size: 0.875rem;
+    }
+    .jito-section .footer-section .footer-sponser .image img{
+        width: 60px !important;
+    }
+    .jito-section .form-section .card{
+        padding: 2em 1em 2em 1em;
+    }
+    .jito-section .form-section .card h5{
+        font-size: 0.9rem;
+    }
+    .bg-success{
+        margin-top: 10px;
+    }
+}
